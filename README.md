@@ -1,10 +1,10 @@
 # docker-confluence
-An Atlassian Confluence installation in a docker container which does actually work.
+An Atlassian Confluence installation in a docker container which _**does actually work**_.
 
 
 ## Setup
 
-Clone repository. Open Dockerfile and edit CONFLUENCE_VERSION to point to latest available. If you need a previous version (this was tested using 6.10), it can be that the URL is changed. Alternatively, you can just download the binary and change the ADD command to use your own binary file in your repository.
+Clone repository. Open Dockerfile and edit CONFLUENCE_VERSION to point to latest available. If you need a previous version (this was tested using 6.10), it can be that the URL needs to be changed (e.g. Atlassian using different URL path for old versions). Alternatively, you can just download the binary and change the ADD command to point to your own binary file in your local machine.
 
 ## response.varfile
 
