@@ -1,6 +1,8 @@
 # docker-confluence
 An Atlassian Confluence installation in a docker container which _**does actually work**_.
 
+This image can work smoothly in a Kubernetes environment.
+
 
 ## Setup
 
