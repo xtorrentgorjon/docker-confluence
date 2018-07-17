@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-ARG CONFLUENCE_VERSION=6.10
+ARG CONFLUENCE_VERSION=6.10.1
 ADD https://www.atlassian.com/software/confluence/downloads/binary/atlassian-confluence-${CONFLUENCE_VERSION}-x64.bin .
 ADD response.varfile .
 EXPOSE 8090
