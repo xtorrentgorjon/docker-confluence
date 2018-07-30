@@ -23,5 +23,5 @@ $ docker build confluence .
 Run the image (you can see debug information with this command, not intended for an actual final deployment):
 
 ```
-$ docker run -it -p 8080:8080 confluence
+$ docker run -it -p 8090:8090 confluence
 ```
